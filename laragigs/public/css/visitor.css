@@ -1,0 +1,175 @@
+.visitor-section .laragigs{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #f61616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.visitor-section .laragigs img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.visitor-section .laragigs .title{
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.visitor-section .laragigs .title span{
+    color: #111111;
+}
+
+.visitor-section .laragigs .subtitle{
+    color: white;
+}
+
+.visitor-section .laragigs .signup-btn{
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+.visitor-section .laragigs .signup-btn a{
+    width: 20%;
+}
+
+.visitor-section .laragigs .signup-btn a button{
+    width: 15%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background: none;
+    margin-top: 1%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.visitor-section .laragigs a button:hover{
+    border-color: #111111;
+    color: #111111;
+}
+
+.visitor-section .search{
+    width: 100%;
+    height: 30px;
+}
+
+.visitor-section .search form{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+.visitor-section .search form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 0px gray;
+    font-size: 20px;
+    text-indent: 1%;
+}
+
+.visitor-section .search form button{
+    width: 5%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    background: #f63939;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.visitor-section .posts{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.visitor-section .posts .post-container{
+    width: 40%;
+    height: 150px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+
+.visitor-section .posts .post-container img{
+    width: 40%;
+    height: 120px;
+    margin-left: 5%;
+}
+
+.visitor-section .posts .post-container .post-information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor-section .posts .post-container .post-information .title{
+    font-size: 25px;
+}
+
+.visitor-section .posts .post-container .post-information .title a{
+    color: black;
+    text-decoration: none;
+}
+
+.visitor-section .posts .post-container .post-information .subtitle{
+    font-weight: 800;
+}
+
+.visitor-section .posts .post-container .post-information .tags-container{
+    display: flex;
+}
+
+.visitor-section .posts .post-container .post-information .tags-container .tag{
+    background: #111111;
+    border-radius: 10px;
+    min-width: 50px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.visitor-section .posts .post-container .post-information .tags-container .tag a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.visitor-section .posts .post-container .post-information .location{
+    display: flex;
+}
+
+.visitor-section .posts .post-container .post-information .location svg{
+    width: 25px;
+    height: 25px;
+}
+
+.visitor-section .posts .post-container .post-information .location div{
+    margin-left: 10px;
+}

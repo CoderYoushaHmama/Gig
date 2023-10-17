@@ -1,0 +1,178 @@
+.listing-section .laragigs{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #f61616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.listing-section .laragigs img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.listing-section .laragigs .title{
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.listing-section .laragigs .title span{
+    color: #111111;
+}
+
+.listing-section .laragigs .subtitle{
+    color: white;
+}
+
+.listing-section .laragigs .signup-btn{
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+.listing-section .laragigs .signup-btn a{
+    width: 20%;
+}
+
+.listing-section .laragigs .signup-btn a button{
+    width: 15%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background: none;
+    margin-top: 1%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.listing-section .laragigs a button:hover{
+    border-color: #111111;
+    color: #111111;
+}
+
+.listing-section .search{
+    width: 100%;
+    height: 30px;
+}
+
+.listing-section .search form{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+.listing-section .search form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 0px gray;
+    font-size: 20px;
+    text-indent: 1%;
+}
+
+.listing-section .search form button{
+    width: 5%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    background: #f63939;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.listing-section .posts{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.listing-section .posts .post-container{
+    width: 45%;
+    height: 200px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+
+.listing-section .posts .post-container img{
+    width: 40%;
+    height: 120px;
+    margin-left: 5%;
+}
+
+.listing-section .posts .post-container .post-information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-section .posts .post-container .post-information .title{
+    font-size: 25px;
+}
+
+.listing-section .posts .post-container .post-information .title a{
+    color: black;
+    text-decoration: none;
+}
+
+.listing-section .posts .post-container .post-information .subtitle{
+    font-weight: 800;
+}
+
+.listing-section .posts .post-container .post-information .tags-container{
+    max-width: 75%;
+    min-height: 50px;
+}
+
+.listing-section .posts .post-container .post-information .tags-container .tag{
+    background: #111111;
+    border-radius: 10px;
+    min-width: 50px;
+    height: 25px;
+    text-align: center;
+    /*align-items: center;*/
+    margin: 10px 5px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.listing-section .posts .post-container .post-information .tags-container .tag a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.listing-section .posts .post-container .post-information .location{
+    display: flex;
+}
+
+.listing-section .posts .post-container .post-information .location svg{
+    width: 25px;
+    height: 25px;
+}
+
+.listing-section .posts .post-container .post-information .location div{
+    margin-left: 10px;
+}

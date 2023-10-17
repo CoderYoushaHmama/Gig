@@ -1,0 +1,68 @@
+.login-section{
+    width: 30%;
+    min-height: 400px;
+    margin: 2% 35% 0 35%;
+    background: whitesmoke;
+}
+
+.login-section .title{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3%;
+}
+
+.login-section .subtitle{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.login-section form{
+    width: 90%;
+    min-height: 250px;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-section form div{
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.login-section form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    text-indent: 1%;
+    outline: gray;
+}
+
+.login-section form button{
+    width: 20%;
+    height: 40px;
+    background: #e53939;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-section .register-btn{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.login-section .register-btn a{
+    text-decoration: none;
+    color: #f15d5d;
+}
+
+.login-section form .error{
+    color: #e53939;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+.main-content{
+    width: 100%;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.main-content::-webkit-scrollbar{
+    display: none;
+}
+
+.error{
+    color: #e53939;
+}

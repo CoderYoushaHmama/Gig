@@ -1,0 +1,113 @@
+.post-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-section .image{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.post-section .image img{
+    width: 250px;
+    height: 200px;
+}
+
+.post-section .title{
+    text-align: center;
+}
+
+.post-section .author{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1%;
+}
+
+.post-section .tags-container{
+    display: flex;
+    justify-content: center;
+}
+
+.post-section .tags-container .tag{
+    background: #111111;
+    border-radius: 10px;
+    min-width: 50px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.post-section .tags-container .tag a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.post-section  .location{
+    display: flex;
+    justify-content: center;
+}
+
+.post-section  .location svg{
+    width: 25px;
+    height: 25px;
+}
+
+.post-section  .location div{
+    margin-left: 10px;
+}
+
+.post-section hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.post-section .jop-description-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.post-section .description{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.post-section .btn{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+.post-section .btn button{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.post-section .btn button svg{
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+    margin-right: 1%;
+}
+
+.post-section .btn .contact{
+    background: #e53939;
+}
+
+.post-section .btn .website{
+    background: #111111;
+}
